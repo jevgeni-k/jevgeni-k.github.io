@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
     <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
+        <div class="header-icon">
+            <i class="fa-solid fa-stethoscope" style="font-size: 2rem; color: rgba(255,255,255,0.9);"></i>
+        </div>
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
@@ -32,19 +37,21 @@
     <main>
 	<h2>Tasulised teenused</h2>
         <p>
-Mootorsõiduki juhiloa taotlemine 55 EUR<br>
-Tervisedeklaratsiooni täitmine paberkandjal 5 EUR<br>
-Tööle, praktikale tõend (sisaldab kopsu röntgenit) 45 EUR<br>
-Tööle, praktikale tõend (sisaldab kopsu röntgenit ja rooja bakterioloogilisi analüüse) 76 või 106 EUR<br>
-Tööle, praktikale tõend (ei sisalda uuringuid) 15 EUR<br>
-Relvaloa või abipolitseiniku tõendi taotlus 55 EUR<br>
-Täiskasvanud inimese vaktsineerimine puukentsefaliidi vastu 37 EUR<br>
-Lapse vaktsineerimine puukentsefaliidi vastu 35 EUR<br>
-Arsti koduvisiit 5 EUR<br>
+<ul class="price-list">
+    <li>Mootorsõiduki juhiloa taotlemine <span class="price">55 EUR</span></li>
+    <li>Tervisedeklaratsiooni täitmine paberkandjal <span class="price">5 EUR</span></li>
+    <li>Tööle, praktikale tõend (sisaldab kopsu röntgenit) <span class="price">45 EUR</span></li>
+    <li>Tööle, praktikale tõend (sisaldab kopsu röntgenit ja rooja bakterioloogilisi analüüse) <span class="price">76 või 106 EUR</span></li>
+    <li>Tööle, praktikale tõend (ei sisalda uuringuid) <span class="price">15 EUR</span></li>
+    <li>Relvaloa või abipolitseiniku tõendi taotlus <span class="price">55 EUR</span></li>
+    <li>Täiskasvanud inimese vaktsineerimine puukentsefaliidi vastu <span class="price">37 EUR</span></li>
+    <li>Lapse vaktsineerimine puukentsefaliidi vastu <span class="price">35 EUR</span></li>
+    <li>Arsti koduvisiit <span class="price">5 EUR</span></li>
+</ul>
 		</p>
     </main>
     <footer>
-        <p>&copy; 2024 Vilisuu Esmatasandi Perearstikeskus</p>
+        <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
 </body>
 </html>
