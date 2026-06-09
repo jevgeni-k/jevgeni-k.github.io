@@ -189,6 +189,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(13, 148, 136, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
     border: 1px solid rgba(168, 230, 207, 0.3);
+    animation: fadeInUp 0.4s ease-out;
 }
 
 @keyframes fadeInUp {
