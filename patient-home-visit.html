@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,42 +17,49 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html" class="active">Patsiendile</a></li>
-                <li><a href="contact.html">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html" class="active"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
             <ul class="sub-menu">
-                <li><a href="patient-house-rules.html">Kodukord</a></li>
-                <li><a href="patient-paid-services.html">Tasulised teenused</a></li>
-                <li><a href="patient-paid-services-no-insurance.html">Tasulised teenused kindlustamata isikule</a></li>
-				<li><a href="patient-docs.html">Töövõimetusleht ehk haigusleht ja hooldusleht</a></li>
-				<li><a href="patient-home-visit.html" class="active">Koduvisiit</a></li>
-				<li><a href="patient-referral-letters.html">Saatekirjad</a></li>
-				<li><a href="patient-prescriptions.html">Retseptid</a></li>
-				<li><a href="patient-health-certificates.html">Tervisetõendid</a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Kodukord</span><span data-lang="en">House Rules</span></a></li>
+                <li><a href="patient-paid-services.html"><span data-lang="et">Tasulised teenused</span><span data-lang="en">Paid Services</span></a></li>
+                <li><a href="patient-paid-services-no-insurance.html"><span data-lang="et">Tasulised teenused kindlustamata isikule</span><span data-lang="en">Paid Services for Uninsured Persons</span></a></li>
+				<li><a href="patient-docs.html"><span data-lang="et">Töövõimetusleht ehk haigusleht ja hooldusleht</span><span data-lang="en">Sick Leave Certificate and Care Leave</span></a></li>
+				<li><a href="patient-home-visit.html" class="active"><span data-lang="et">Koduvisiit</span><span data-lang="en">Home Visit</span></a></li>
+				<li><a href="patient-referral-letters.html"><span data-lang="et">Saatekirjad</span><span data-lang="en">Referral Letters</span></a></li>
+				<li><a href="patient-prescriptions.html"><span data-lang="et">Retseptid</span><span data-lang="en">Prescriptions</span></a></li>
+				<li><a href="patient-health-certificates.html"><span data-lang="et">Tervisetõendid</span><span data-lang="en">Health Certificates</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Koduvisiit</h2>
+	<h2><span data-lang="et">Koduvisiit</span><span data-lang="en">Home Visit</span></h2>
         <p>
-Koduvisiidi vajaduse otsustab alati arst. Tavaliselt koduvisiiti viiakse läbi, kui patsient on olulise
+<span data-lang="et">Koduvisiidi vajaduse otsustab alati arst. Tavaliselt koduvisiiti viiakse läbi, kui patsient on olulise
 liikumishäirega (nt voodihaige), ning perearstikeskusele tulek on võimatu/oluliselt raskendatud. Kodus
 on võimalused haiguse diagnoosimiseks ja ravi alustamiseks alati kehvemad, kui tervisekeskuses. Esmast
 nõustamist saab teha ka telefoni teel, seega pöörduge esmalt pereõe poole, kes Teid ära kuulab ja
 leppige kokku edasine tegevus. Vajadusel helistab arst Teile asjaolude täpsustamiseks ja lepib kokku
-vastuvõtu või koduvisiidi aega.<br><br>
+vastuvõtu või koduvisiidi aega.</span>
+<span data-lang="en">The doctor always decides the need for a home visit. A home visit is usually conducted when the patient has a significant mobility impairment (e.g., bedridden) and coming to the medical center is impossible/significantly difficult. The facilities for diagnosing and starting treatment at home are always worse than at the medical center. Initial consultation can also be done by phone, so first contact the family nurse, who will listen to you and agree on further action. If necessary, the doctor will call you to clarify the circumstances and agree on an appointment or home visit time.</span>
+<br><br>
 
-<strong>Koduvisiit on tasuline.</strong> Hind 5 eurot ühele aadressile kutsutud visiidi või visiitide eest (Tervisekassa poolt
-kindlustatud isikutele). Koduvisiidi eest ei võeta tasu rasedatelt ja alla 2-aastastelt lastelt.
-Juhul, kui patsient on olulise liikumishäirega ning vajab regulaarset meditsiinilist abi (nt haavandi
+<strong><span data-lang="et">Koduvisiit on tasuline.</span><span data-lang="en">Home visits are paid.</span></strong> <span data-lang="et">Hind 5 eurot ühele aadressile kutsutud visiidi või visiitide eest (Tervisekassa poolt
+kindlustatud isikutele). Koduvisiidi eest ei võeta tasu rasedatelt ja alla 2-aastastelt lastelt.</span><span data-lang="en">The fee is 5 euros per visit or visits to one address (for Health Insurance Fund insured persons). Home visit fees are not charged for pregnant women and children under 2.</span>
+<span data-lang="et">Juhul, kui patsient on olulise liikumishäirega ning vajab regulaarset meditsiinilist abi (nt haavandi
 sidumine), on võimalik kasutada koduõenduse teenust (selleks perearst teeb eraldi saatekirja).
-Koduõenduse teenus on kindlustatud isikule <strong>tasuta</strong>.
+Koduõenduse teenus on kindlustatud isikule</span><span data-lang="en">If the patient has a significant mobility impairment and needs regular medical assistance (e.g., wound dressing), it is possible to use the home nursing service (for this, the GP will issue a separate referral). The home nursing service is free for insured persons.</span> <strong><span data-lang="et">tasuta</span><span data-lang="en">free</span></strong>.
 		</p>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>

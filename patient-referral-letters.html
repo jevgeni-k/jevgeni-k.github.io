@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,25 +17,30 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html" class="active">Patsiendile</a></li>
-                <li><a href="contact.html">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html" class="active"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
             <ul class="sub-menu">
-                <li><a href="patient-house-rules.html">Kodukord</a></li>
-                <li><a href="patient-paid-services.html">Tasulised teenused</a></li>
-                <li><a href="patient-paid-services-no-insurance.html">Tasulised teenused kindlustamata isikule</a></li>
-				<li><a href="patient-docs.html">Töövõimetusleht ehk haigusleht ja hooldusleht</a></li>
-				<li><a href="patient-home-visit.html">Koduvisiit</a></li>
-				<li><a href="patient-referral-letters.html" class="active">Saatekirjad</a></li>
-				<li><a href="patient-prescriptions.html">Retseptid</a></li>
-				<li><a href="patient-health-certificates.html">Tervisetõendid</a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Kodukord</span><span data-lang="en">House Rules</span></a></li>
+                <li><a href="patient-paid-services.html"><span data-lang="et">Tasulised teenused</span><span data-lang="en">Paid Services</span></a></li>
+                <li><a href="patient-paid-services-no-insurance.html"><span data-lang="et">Tasulised teenused kindlustamata isikule</span><span data-lang="en">Paid Services for Uninsured Persons</span></a></li>
+				<li><a href="patient-docs.html"><span data-lang="et">Töövõimetusleht ehk haigusleht ja hooldusleht</span><span data-lang="en">Sick Leave Certificate and Care Leave</span></a></li>
+				<li><a href="patient-home-visit.html"><span data-lang="et">Koduvisiit</span><span data-lang="en">Home Visit</span></a></li>
+				<li><a href="patient-referral-letters.html" class="active"><span data-lang="et">Saatekirjad</span><span data-lang="en">Referral Letters</span></a></li>
+				<li><a href="patient-prescriptions.html"><span data-lang="et">Retseptid</span><span data-lang="en">Prescriptions</span></a></li>
+				<li><a href="patient-health-certificates.html"><span data-lang="et">Tervisetõendid</span><span data-lang="en">Health Certificates</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Saatekirjad</h2>
+	<h2><span data-lang="et">Saatekirjad</span><span data-lang="en">Referral Letters</span></h2>
+        <div data-lang="et">
         <p>
 Eriarsti konsultatsiooni vajaduse otsustab perearst. Perearst annab saatekirja eriarstile ainult juhul kui
 eriarsti konsultatsioon on meditsiiniliselt põhjendatud. Perearst ei väljasta saatekirja patsiendi
@@ -54,9 +59,22 @@ Patsient võib pöörduda ise, saatekirja omamata järgmiste arstide vastuvõtul
 suguhaiguste arstile, hambaarstile, silmaarstile, trauma korral traumatoloogile/erakorralise meditsiini
 arstile ja kopsuarstile ainult tuberkuloosi kahtlusega.
 		</p>
+        </div>
+        <div data-lang="en">
+        <p>
+The GP decides the need for a specialist consultation. The GP issues a referral to a specialist only if the specialist consultation is medically justified. The GP does not issue referrals on patient demand or retroactively.<br><br>
+
+<strong>As a rule, the GP does not issue a referral for a specialist appointment without seeing the patient (must perform an examination and, if necessary, conduct tests, as the referral is not a formal document and must contain detailed information about the patient's health condition). Therefore, to obtain a referral, you must register for a GP appointment, unless otherwise agreed.</strong><br><br>
+
+<strong>If you have registered for a specialist appointment without consulting the GP, they have the right to refuse to issue a referral and you will have to pay for the service yourself. The family nurse does not issue referrals.</strong><br><br>
+
+A patient may visit the following specialists without a referral: gynecologist, dermatologist, dentist, ophthalmologist, in case of trauma – traumatologist/emergency medicine doctor, and pulmonologist only for suspected tuberculosis.
+		</p>
+        </div>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,36 +17,41 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html" class="active">Patsiendile</a></li>
-                <li><a href="contact.html">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html" class="active"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
             <ul class="sub-menu">
-                <li><a href="patient-house-rules.html">Kodukord</a></li>
-                <li><a href="patient-paid-services.html">Tasulised teenused</a></li>
-                <li><a href="patient-paid-services-no-insurance.html" class="active">Tasulised teenused kindlustamata isikule</a></li>
-				<li><a href="patient-docs.html">Töövõimetusleht ehk haigusleht ja hooldusleht</a></li>
-				<li><a href="patient-home-visit.html">Koduvisiit</a></li>
-				<li><a href="patient-referral-letters.html">Saatekirjad</a></li>
-				<li><a href="patient-prescriptions.html">Retseptid</a></li>
-				<li><a href="patient-health-certificates.html">Tervisetõendid</a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Kodukord</span><span data-lang="en">House Rules</span></a></li>
+                <li><a href="patient-paid-services.html"><span data-lang="et">Tasulised teenused</span><span data-lang="en">Paid Services</span></a></li>
+                <li><a href="patient-paid-services-no-insurance.html" class="active"><span data-lang="et">Tasulised teenused kindlustamata isikule</span><span data-lang="en">Paid Services for Uninsured Persons</span></a></li>
+				<li><a href="patient-docs.html"><span data-lang="et">Töövõimetusleht ehk haigusleht ja hooldusleht</span><span data-lang="en">Sick Leave Certificate and Care Leave</span></a></li>
+				<li><a href="patient-home-visit.html"><span data-lang="et">Koduvisiit</span><span data-lang="en">Home Visit</span></a></li>
+				<li><a href="patient-referral-letters.html"><span data-lang="et">Saatekirjad</span><span data-lang="en">Referral Letters</span></a></li>
+				<li><a href="patient-prescriptions.html"><span data-lang="et">Retseptid</span><span data-lang="en">Prescriptions</span></a></li>
+				<li><a href="patient-health-certificates.html"><span data-lang="et">Tervisetõendid</span><span data-lang="en">Health Certificates</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Tasulised teenused kindlustamata isikule</h2>
+	<h2><span data-lang="et">Tasulised teenused kindlustamata isikule</span><span data-lang="en">Paid Services for Uninsured Persons</span></h2>
         <p>
 <ul class="price-list">
-    <li>Arsti esmane vastuvõtt (ei sisalda uuringuid) <span class="price">50 EUR</span></li>
-    <li>Arsti korduv vastuvõtt <span class="price">35 EUR</span></li>
-    <li>Pereõe vastuvõtt <span class="price">30 EUR</span></li>
-    <li>Ravimiretsepti pikendamine <span class="price">35 EUR</span></li>
+    <li><span data-lang="et">Arsti esmane vastuvõtt (ei sisalda uuringuid)</span><span data-lang="en">Doctor's initial consultation (does not include tests)</span> <span class="price">50 EUR</span></li>
+    <li><span data-lang="et">Arsti korduv vastuvõtt</span><span data-lang="en">Doctor's follow-up consultation</span> <span class="price">35 EUR</span></li>
+    <li><span data-lang="et">Pereõe vastuvõtt</span><span data-lang="en">Family nurse consultation</span> <span class="price">30 EUR</span></li>
+    <li><span data-lang="et">Ravimiretsepti pikendamine</span><span data-lang="en">Prescription renewal</span> <span class="price">35 EUR</span></li>
 </ul>
 		</p>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>

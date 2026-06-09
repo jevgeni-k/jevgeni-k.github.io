@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,17 +17,22 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html">Patsiendile</a></li>
-                <li><a href="contact.html" class="active">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html" class="active"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Kuhu pöörduda, kui Perearstikeskus on kinni?</h2>
+	<h2><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></h2>
         <p>
 <div class="contact-block">
+<div data-lang="et">
 <strong>Erakorraline abi</strong>
 <p>Erakorraline abi osutatakse patsientidele, kellel on hiljuti tekkinud äge terviseprobleem, trauma,
 mürgistus või muu eluohtlik või potentsiaalselt eluohtlik seisund, mis vajab ülikiiret sekkumist.<br>
@@ -40,26 +45,52 @@ Erakorraline vastuvõtt toimub Tallinnas ööpäevaringselt järgnevates haiglat
 <p>Kui Teil või lähedasel on potentsiaalselt eluohtlik seisund, mis vajab ülikiiret sekkumist ning ei ole
 võimalust või aega iseseisvalt erakorralise meditsiini osakonda sõita, helistage <strong>kiirabi numbrile 112</strong>.</p>
 </div>
+<div data-lang="en">
+<strong>Emergency Care</strong>
+<p>Emergency care is provided to patients who have recently developed an acute health problem, trauma, poisoning, or other life-threatening or potentially life-threatening condition requiring extremely urgent intervention.<br>
+Emergency reception takes place around the clock in the following hospitals in Tallinn:</p>
+<ul>
+<li>Põhja-Eesti Regionaalhaigla, address <strong>J. Sütiste tee 19</strong></li>
+<li>Ida-Tallinna Keskhaigla, address <strong>Ravi 18</strong></li>
+<li>Lääne-Tallinna Keskhaigla, address <strong>Paldiski mnt 68</strong></li>
+</ul>
+<p>If you or a loved one has a potentially life-threatening condition requiring extremely urgent intervention and there is no possibility or time to independently travel to the emergency department, call the ambulance number 112.</p>
+</div>
+</div>
 		</p>
 		<p>
 <div class="contact-block">
+<div data-lang="et">
 <strong>Perearsti üleriigiline nõuandetelefon 1220</strong>
 <p>Perearsti nõuandetelefonil 1220 saab lihtsamate terviseprobleemide korral meditsiinilist nõu eesti ja
 vene keeles 24 tundi ööpäevas.<br>
 <a href="https://www.1220.ee" target="_blank">www.1220.ee</a></p>
 </div>
+<div data-lang="en">
+<strong>National GP Advisory Hotline 1220</strong>
+<p>The GP advisory hotline 1220 provides medical advice for simple health problems in Estonian and Russian, 24 hours a day.<br>
+<a href="https://www.1220.ee" target="_blank">www.1220.ee</a></p>
+</div>
+</div>
 		</p>
 		<p>
 <div class="contact-block">
+<div data-lang="et">
 <strong>Üleriigiline Ämmaemanda Nõuandetelefon</strong>
 <p>Üleriigiline Ämmaemanda Nõuandetelefon <strong>12252</strong> töötab ööpäev läbi, samuti nädalavahetustel ja
 riigipühadel. Kohest professionaalset nõu ja vastuseid Teie küsimustele annavad pikajalise kogemusega
 ämmaemandad.</p>
+</div>
+<div data-lang="en">
+<strong>National Midwife Advisory Hotline</strong>
+<p>The National Midwife Advisory Hotline <strong>12252</strong> operates around the clock, including weekends and public holidays. Experienced midwives provide immediate professional advice and answers to your questions.</p>
+</div>
 </div>
 		</p>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>

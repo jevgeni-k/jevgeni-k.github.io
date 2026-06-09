@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,47 +17,53 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html" class="active">Patsiendile</a></li>
-                <li><a href="contact.html">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html" class="active"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
             <ul class="sub-menu">
-                <li><a href="patient-house-rules.html">Kodukord</a></li>
-                <li><a href="patient-paid-services.html">Tasulised teenused</a></li>
-                <li><a href="patient-paid-services-no-insurance.html">Tasulised teenused kindlustamata isikule</a></li>
-				<li><a href="patient-docs.html" class="active">Töövõimetusleht ehk haigusleht ja hooldusleht</a></li>
-				<li><a href="patient-home-visit.html">Koduvisiit</a></li>
-				<li><a href="patient-referral-letters.html">Saatekirjad</a></li>
-				<li><a href="patient-prescriptions.html">Retseptid</a></li>
-				<li><a href="patient-health-certificates.html">Tervisetõendid</a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Kodukord</span><span data-lang="en">House Rules</span></a></li>
+                <li><a href="patient-paid-services.html"><span data-lang="et">Tasulised teenused</span><span data-lang="en">Paid Services</span></a></li>
+                <li><a href="patient-paid-services-no-insurance.html"><span data-lang="et">Tasulised teenused kindlustamata isikule</span><span data-lang="en">Paid Services for Uninsured Persons</span></a></li>
+				<li><a href="patient-docs.html" class="active"><span data-lang="et">Töövõimetusleht ehk haigusleht ja hooldusleht</span><span data-lang="en">Sick Leave Certificate and Care Leave</span></a></li>
+				<li><a href="patient-home-visit.html"><span data-lang="et">Koduvisiit</span><span data-lang="en">Home Visit</span></a></li>
+				<li><a href="patient-referral-letters.html"><span data-lang="et">Saatekirjad</span><span data-lang="en">Referral Letters</span></a></li>
+				<li><a href="patient-prescriptions.html"><span data-lang="et">Retseptid</span><span data-lang="en">Prescriptions</span></a></li>
+				<li><a href="patient-health-certificates.html"><span data-lang="et">Tervisetõendid</span><span data-lang="en">Health Certificates</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Töövõimetusleht ehk haigusleht ja hooldusleht</h2>
+	<h2><span data-lang="et">Töövõimetusleht ehk haigusleht ja hooldusleht</span><span data-lang="en">Sick Leave Certificate and Care Leave</span></h2>
         <p>
-Haigestumisest ja töövõimetuslehe vajadusest palume teavitada haigestumise päeval. Kui kindlustatud
-isik haigestub või hoolduse või põetuse vajadus tekkib nädalavahetusel, rahvuspühal või riigipühal tuleb 
-teavitada  sellest vahetult järgneval tööpäeval.<br>
+<span data-lang="et">Haigestumisest ja töövõimetuslehe vajadusest palume teavitada haigestumise päeval. Kui kindlustatud
+isik haigestub või hoolduse või põetuse vajadus tekkib nädalavahetusel, rahvuspühal või riigipühal tuleb 
+teavitada  sellest vahetult järgneval tööpäeval.</span><span data-lang="en">Please notify us of illness and the need for a sick leave certificate on the day of illness. If an insured person falls ill or the need for care or nursing arises on a weekend, national holiday, or public holiday, you must notify us on the immediately following working day.</span><br>
 
-Tagantjärele töövõimetuslehte ei avata, välja arvatud juhul, kui Teil on olemas muu haigestumist
-tõendav dokument:
+<span data-lang="et">Tagantjärele töövõimetuslehte ei avata, välja arvatud juhul, kui Teil on olemas muu haigestumist
+tõendav dokument:</span><span data-lang="en">A sick leave certificate is not opened retroactively, unless you have another document confirming the illness:</span>
 <ul>
-<li>kiirabikaart</li>
-<li>haigla või EMO väljavõte</li>
+<li><span data-lang="et">kiirabikaart</span><span data-lang="en">ambulance card</span></li>
+<li><span data-lang="et">haigla või EMO väljavõte</span><span data-lang="en">hospital or ER discharge summary</span></li>
 </ul>
-Nimetatud juhtudel saab haigusleht avada ka 2 päeva peale haigestumist. 
-Haigestumisest võimalik teavitada ka <a href="https://eperearstikeskus.ee" target="_blank">E-perearstikeskuse</a> kaudu.
-Peale töövõimetuslehe avamist pereõde/perearst lepib Teiega kokku, millal toimub järgmine
+<span data-lang="et">Nimetud juhtudel saab haigusleht avada ka 2 päeva peale haigestumist. 
+Haigestumisest võimalik teavitada ka <a href="https://eperearstikeskus.ee" target="_blank">E-perearstikeskuse</a> kaudu.</span><span data-lang="en">In these cases, a sick leave certificate can also be opened up to 2 days after the onset of illness.
+You can also report your illness through the <a href="https://eperearstikeskus.ee" target="_blank">E-perearstikeskus</a>.</span>
+<span data-lang="et">Peale töövõimetuslehe avamist pereõde/perearst lepib Teiega kokku, millal toimub järgmine
 vastuvõtt/telefonikontakt. Juhul, kui Te ei tule vastuvõtule/ei vasta telefonile, töövõimetusleht
-pannakse kinni kuupäevaga, millal vastuvõtt/telefonikontakt oli planeeritud.<br>
-Töövõimetusleht on rahaline dokument, seetõttu palume töövõimetuslehe vajaval patsiendil perearsti
-või pereõega suheldes kinni pidada kokkulepitud tähtaegadest.
+pannakse kinni kuupäevaga, millal vastuvõtt/telefonikontakt oli planeeritud.</span><span data-lang="en">After opening the sick leave certificate, the family nurse/GP will agree with you on when the next appointment/phone contact will take place. If you do not attend the appointment/answer the phone, the sick leave certificate will be closed with the date when the appointment/phone contact was planned.</span><br>
+<span data-lang="et">Töövõimetusleht on rahaline dokument, seetõttu palume töövõimetuslehe vajaval patsiendil perearsti
+või pereõega suheldes kinni pidada kokkulepitud tähtaegadest.</span><span data-lang="en">The sick leave certificate is a financial document, therefore we ask patients who need a sick leave certificate to adhere to the agreed deadlines when communicating with the GP or family nurse.</span>
 		</p>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>

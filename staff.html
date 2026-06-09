@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <title>Vilisuu Esmatasandi Perearstikeskus</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional for styling -->
+    <link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -17,16 +17,21 @@
         <h1>Vilisuu Esmatasandi Perearstikeskus</h1>
         <nav>
             <ul class="main-menu">
-                <li><a href="index.html">Avaleht</a></li>
-                <li><a href="patient-house-rules.html">Patsiendile</a></li>
-                <li><a href="contact.html">Kuhu pöörduda, kui Perearstikeskus on kinni?</a></li>
-                <li><a href="staff.html" class="active">Meie töötajad</a></li>
+                <li><a href="index.html"><span data-lang="et">Avaleht</span><span data-lang="en">Home</span></a></li>
+                <li><a href="patient-house-rules.html"><span data-lang="et">Patsiendile</span><span data-lang="en">For Patients</span></a></li>
+                <li><a href="contact.html"><span data-lang="et">Kuhu pöörduda, kui Perearstikeskus on kinni?</span><span data-lang="en">Where to turn when the Medical Center is closed?</span></a></li>
+                <li><a href="staff.html" class="active"><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></a></li>
             </ul>
         </nav>
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang-btn="et">ET</button>
+            <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
     </header>
     <main>
-	<h2>Meie töötajad</h2>
+	<h2><span data-lang="et">Meie töötajad</span><span data-lang="en">Our Staff</span></h2>
         <div class="team-section">
+            <div data-lang="et">
 <strong>Dr Jakovlevi meeskond</strong>
 <p>Ivan Jakovlev – perearst<br>
 Anna Makina – perearst<br>
@@ -34,24 +39,51 @@ Anne Rogalevitš – pereõde<br>
 Svetlana Mazurkevitš – vanemõde<br>
 Viktoria Jakovleva – pereõde<br>
 Juri Juhnevitš – pereõde</p>
-</div>
+            </div>
+            <div data-lang="en">
+<strong>Dr. Jakovlev's Team</strong>
+<p>Ivan Jakovlev – GP<br>
+Anna Makina – GP<br>
+Anne Rogalevitš – family nurse<br>
+Svetlana Mazurkevitš – senior nurse<br>
+Viktoria Jakovleva – family nurse<br>
+Juri Juhnevitš – family nurse</p>
+            </div>
+        </div>
         <div class="team-section">
+            <div data-lang="et">
 <strong>Dr Koso meeskond</strong>
 <p>Ištvan Koso – perearst<br>
 Lidia Rändvee – perearst<br>
 Marju Teras-Põllumees – pereõde<br>
 Anna Kokatjuhha – pereõde</p>
-</div>
+            </div>
+            <div data-lang="en">
+<strong>Dr. Koso's Team</strong>
+<p>Ištvan Koso – GP<br>
+Lidia Rändvee – GP<br>
+Marju Teras-Põllumees – family nurse<br>
+Anna Kokatjuhha – family nurse</p>
+            </div>
+        </div>
         <div class="team-section">
+            <div data-lang="et">
 <strong>Dr Korbergi meeskond</strong>
 <p>Silvia Korberg – perearst<br>
 Inga Djukova – pereõde<br>
 Inna Tšibissova - pereõde</p>
-</div>
+            </div>
+            <div data-lang="en">
+<strong>Dr. Korberg's Team</strong>
+<p>Silvia Korberg – GP<br>
+Inga Djukova – family nurse<br>
+Inna Tšibissova - family nurse</p>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2026 Vilisuu Esmatasandi Perearstikeskus</p>
     </footer>
+    <script src="lang.js"></script>
 </body>
 </html>
-
